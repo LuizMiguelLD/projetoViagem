@@ -1,6 +1,6 @@
 <h1>🛫 Projeto Site de Viagens</h1>
 <h3>🔎 Sobre</h3>
-<p>Esse projeto escolar foi uma releitura do site de viagens da <strong>Grupo Dicas</strong></p>
+<p>Esse projeto escolar foi uma releitura do site de viagens da <strong>Grupo Dicas</strong>.</p>
 <p>Projeto de referência:</p>
 <p>https://www.grupodicas.com/roma-guia-de-viagem/</p>
 <h3>🎯 Objetivo</h3>
