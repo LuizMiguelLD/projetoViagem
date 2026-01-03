@@ -1,0 +1,380 @@
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 241, 241);
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone_menu {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 12px;
+    font-size: 30px;
+}
+
+.icones {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-right: 12px;
+
+    font-size: 30px;
+    gap: 10px;
+}
+
+.icones button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.menu button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-size: 25px;
+    transition: 0.2s;   
+}
+
+.hamburguer:hover {
+    color: rgb(0, 83, 104);    
+}
+
+.pesquisa:hover {
+    color: rgb(0, 83, 104);
+}
+
+.pesquisa {
+    padding-left: 10px;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: rgb(0, 81, 255);
+}
+
+.instagram:hover {
+    color: rgb(189, 5, 189);
+}
+
+
+.logo img {
+    padding-top: 4px;
+    max-height: 75px;
+    justify-self: center;
+}
+
+.sub_menu {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+}
+
+.sub_menu ul{
+    display: flex;
+    padding: 0px;
+    list-style: none;
+
+    gap: 5px;
+}
+
+.sub_menu ul li a{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 6px;
+    color: rgb(0, 83, 104)
+}
+
+.sub_menu ul li a:hover{
+   color: rgb(61, 141, 141);
+}
+
+
+.img_cataratas {
+    height: 10%;
+    width: 100%;
+    padding-top: 85px;
+}
+
+.img_cataratas figure {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 12px;
+}
+
+.img_cataratas figure img {
+    height: 100%;
+    width: 100%;
+}
+
+.img_cataratas figure figcaption {
+    position: absolute;
+}
+
+.img_cataratas figure figcaption p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    
+    font-size: 65px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+.card figure {
+    width: 25%;
+    max-width: 100%;
+    padding: 12px;
+    
+    border: solid rgb(148, 148, 148) 1px;
+    border-radius: 12px;
+}
+
+.card figure img{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.guia {
+    display: flex;
+    flex-direction: column;
+}
+
+.guia h1 {
+    text-align: center;
+    color: rgb(30, 0, 128);
+}
+
+.guia p {
+    padding-left: 45px;
+    color: rgb(138, 136, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.hotel {
+    margin: 0px;
+}
+
+.hotel h1 {
+    padding-left: 50px;
+    color: rgb(30, 0, 128);
+}
+
+.hotel h2 {
+    padding-left: 50px;
+    color: rgb(41, 2, 167);
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.hotel p {
+    padding-left: 50px;
+    padding-right: 25px;
+    color: rgb(138, 136, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.txt5 {
+    width: 50%;
+}
+
+.img5   {
+    width: 45%;
+}
+
+.img5 img {
+    width: 90%;
+    
+}
+
+.hotel5 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hotel4 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.txt4 {
+    width: 50%;
+}
+
+.img4 {
+    width: 45%;
+}
+
+.img4 img {
+    width: 90%;
+}
+
+.hotel3 {
+    display: flex;
+}
+
+.txt3 {
+    width: 50%;
+}
+
+.hotel ul {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    padding-left: 70px;
+    list-style: none;
+    margin: 0px;
+}
+
+.hotel ul li {
+    padding-top: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.hotel ul li i {
+    color: rgb(41, 2, 167);   
+}
+
+.img3 {
+    padding-top: 35px;
+    width: 45%;
+}
+
+.img3 img {
+    width: 90%;
+}
+
+footer {
+    background-color: rgb(1, 117, 211);
+    height: 50vh;
+    display: flex;
+    padding-top: 20px;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 0px;
+    padding-bottom: 12px;
+}
+
+footer h3 {
+    color: rgb(172, 218, 255);
+    font-size: 20px;
+}
+
+footer ul li {
+    padding-top: 6px;
+}
+
+.info {
+    width: 40%;
+    padding-left: 50px;
+}
+
+.info h3 {
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+}
+
+.info button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    font-size: 25px;
+    transition: 0.2s;   
+}
+
+.info button i {
+    font-size: 30px;
+    color: white;    
+}
+
+.info button i:hover {
+    color: rgb(18, 208, 255)   
+}
+
+.pais {
+    width: 20%;
+    padding-left: 20px;
+}
+
+.pais ul {
+    list-style: none;
+}
+
+.pais ul li {
+    padding-top: 15px;
+}
+
+.pais ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.empresa {
+    width: 20%;
+}
+
+.empresa ul li {
+    padding-top: 15px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.contato {
+    width: 20%;
+    padding-right: 50px;
+}
+
+.contato ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
